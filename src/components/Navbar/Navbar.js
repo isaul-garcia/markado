@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef} from 'react';
+import React, {useState, useEffect} from 'react';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLink, NavItemBtn, NavBtnLink, SearchInput, SpecialNavButton,Marka, SearchBar, SearchButton } from './Navbar.elements';
 import MarkadoLogoComplete from '../../assets/markado-icon-markado.svg';
 import MarkadoLogoCompleteWhite from '../../assets/markado-icon-markado-white.svg';

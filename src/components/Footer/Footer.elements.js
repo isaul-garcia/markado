@@ -134,17 +134,6 @@ margin: 40px auto 0 auto;
 }
 `;
 
-export const SocialLogo = styled(Link)`
-color: #444;
-justify-self: start;
-cursor: pointer;
-text-decoration: none;
-font-size: 2rem;
-display: flex;
-align-items: center;
-margin-bottom: 16px;
-`;
-
 export const WebsiteRights = styled.small`
 color: #444444;
 margin-bottom: 16px;
@@ -160,15 +149,4 @@ width: 120px;
 export const SocialIconLink = styled.a`
 color: #444;
 font-size: 24px;
-`;
-
-export const AppDownloadLink = styled(Link)`
-color: #444;
-justify-self: start;
-cursor: pointer;
-text-decoration: none;
-font-size: 2rem;
-display: flex;
-align-items: center;
-margin-bottom: 16px;
 `;
