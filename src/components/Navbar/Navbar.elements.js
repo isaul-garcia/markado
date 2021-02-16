@@ -24,7 +24,7 @@ ${Container}
 `;
 
 export const NavLogo = styled(Link)`
-color: #000;
+color: ${({scrolledDown}) => (scrolledDown ? '#000' : '#fff')};
 justify-self: flex-start;
 cursor: pointer;
 text-decoration: none;
@@ -45,6 +45,7 @@ display: none;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    color: ${({scrolledDown}) => (scrolledDown ? '#444' : 'rgba(255,255,255,0.75)')};
 }
 `;
 
@@ -58,13 +59,13 @@ text-align: center;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh; 
+    height: 100vh; 
     position: absolute;
     top: 80px;
     left: ${({click}) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.4s ease;
-    background: #e1e1e1;
+    background: #fff;
 }
 `;
 
@@ -97,6 +98,8 @@ height: 100%;
     padding: 2rem;
     width: 100%;
     display: table;
+    color: #000;
+
 
     &:hover {
         color: #25d789;
@@ -157,6 +160,7 @@ color: ${({scrolledDown}) => (scrolledDown ? 'rgba(0,0,0,0.75)' : 'rgba(255,255,
 
 @media screen and (max-width: 1280px) {
     width:10px;
+    display:none;
 }
 `;
 
@@ -170,6 +174,10 @@ outline: none;
 border: none;
 border-radius: 18px 0 0 18px;
 transition: all 0.2s ease-in-out;
+
+@media screen and (max-width: 960px) {
+    display: none;
+}
 `;
 
 export const SpecialNavButton = styled.button`
@@ -190,7 +198,12 @@ transition: all 0.2s ease-ease-in-out;
 }
 
 @media screen and (max-width: 960px) {
-    width:100%;
+    background:  rgba(37, 215, 137, 1);
+    border: 2px solid rgba(37, 215, 137, 1);
+
+    &:hover {
+    background: rgba(37, 215, 137, 0.75);
+}
 }
 `;
 

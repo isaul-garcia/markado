@@ -157,7 +157,7 @@ margin-bottom: 45px;
 }
 
 @media screen and (max-width: 1280px) {
-    width:10px;
+    width:450px;
 }
 `;
 

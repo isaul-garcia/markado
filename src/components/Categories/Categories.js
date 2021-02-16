@@ -90,6 +90,7 @@ function Categories() {
               </CategoriesCardInfo>
             </CategoriesCard>
           </CategoriesContainer>
+          
         </CategoriesWrapper>
       </CategoriesSection>
     </IconContext.Provider>

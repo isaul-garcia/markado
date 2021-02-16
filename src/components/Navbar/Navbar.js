@@ -48,7 +48,7 @@ const Navbar = () => {
                     <NavLogo to="/">
                         <img src={scrolledDown ? MarkadoLogoComplete : MarkadoLogoCompleteWhite} alt="logo" />
                     </NavLogo>
-                    <MobileIcon onClick={handleClick}>
+                    <MobileIcon onClick={handleClick} scrolledDown={scrolledDown}>
                         {click ? <RiCloseLine /> : <RiMenuFill />}
                     </MobileIcon>
                     

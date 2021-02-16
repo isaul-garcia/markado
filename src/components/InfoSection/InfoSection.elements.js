@@ -134,7 +134,7 @@ padding: 4px;
 z-index: 1;
 
 @media screen and (max-width: 1280px) {
-  max-height: 100px;
+  max-height: 316px;
 }
 `;
 

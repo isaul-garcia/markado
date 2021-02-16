@@ -74,6 +74,8 @@ margin-bottom: ${({shortDesc}) => (shortDesc ? '60px' : '0px')};
 
 @media screen and (max-width: 960px) {
     width:100%;
+    text-align: left;
+    
 }
 `;
 
