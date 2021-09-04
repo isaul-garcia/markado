@@ -1,12 +1,12 @@
   
-import React from 'react';
+import React, {useState} from 'react';
 import { BsArrowRight } from 'react-icons/bs';
 import { IconContext } from 'react-icons/lib';
 import { HiSearch } from 'react-icons/hi';
-import VizInmobiliaria from '../../assets/categ-home.png';
-import VizTransportacion from '../../assets/categ-carro.png';
-import VizArticulos from '../../assets/categ-comp.png';
-import VizMuebles from '../../assets/categ-sofa.png';
+import VizInmobiliaria from '../../assets/categ-home-2.png';
+import VizTransportacion from '../../assets/categ-carro-2.png';
+import VizArticulos from '../../assets/categ-comp-2.png';
+import VizMuebles from '../../assets/categ-sofa-2.png';
 import {
   CategoriesSection,
   CategoriesWrapper,
@@ -26,9 +26,11 @@ import {
 } from './Categories.elements';
 
 function Categories() {
+  const [isColorAccent, setIsColorAccent] = useState('#25d789');
+
   return (
     <IconContext.Provider value={{ color: '#75827f', size: 35 }}>
-      <CategoriesSection>
+      <CategoriesSection accentColor={isColorAccent}>
         <CategoriesWrapper>
           <CategoriesHeading>Justo lo que buscabas.</CategoriesHeading>
           <CategoriesSubHeading>Anunciate hoy en la mejor plataforma compraventa de productos de segunda mano en Puerto Rico.</CategoriesSubHeading>
@@ -41,7 +43,7 @@ function Categories() {
           </IconContext.Provider>
 
            <CategoriesContainer>
-            <CategoriesCard to='/sign-up'>
+            <CategoriesCard to='/Muebles' onMouseEnter={() => setIsColorAccent('#a8a1ff')} onMouseLeave={() => setIsColorAccent('#25d789')} accentColor={isColorAccent}>
             <CategoriesCardInfo>
                 <CategoryVisual>
                   <Visual src={VizInmobiliaria} alt="Inmobiliaria" />
@@ -53,7 +55,7 @@ function Categories() {
                 </CategoriesCardArrow>
               </CategoriesCardInfo>
             </CategoriesCard>
-            <CategoriesCard to='/sign-up'>
+            <CategoriesCard to='/Muebles' onMouseEnter={() => setIsColorAccent('#5397ff')} onMouseLeave={() => setIsColorAccent('#25d789')} accentColor={isColorAccent}>
             <CategoriesCardInfo>
                 <CategoryVisual>
                   <Visual src={VizTransportacion} alt="Transportacion" />
@@ -65,7 +67,7 @@ function Categories() {
                 </CategoriesCardArrow>
               </CategoriesCardInfo>
             </CategoriesCard>
-            <CategoriesCard to='/sign-up'>
+            <CategoriesCard to='/Muebles' onMouseEnter={() => setIsColorAccent('#fa8c4c')} onMouseLeave={() => setIsColorAccent('#25d789')} accentColor={isColorAccent}>
             <CategoriesCardInfo>
                 <CategoryVisual>
                   <Visual src={VizArticulos} alt="Articulos" />
@@ -77,7 +79,7 @@ function Categories() {
                 </CategoriesCardArrow>
               </CategoriesCardInfo>
             </CategoriesCard>
-            <CategoriesCard to='/sign-up'>
+            <CategoriesCard to='/Muebles' onMouseEnter={() => setIsColorAccent('#d5d736')} onMouseLeave={() => setIsColorAccent('#25d789')} accentColor={isColorAccent}>
             <CategoriesCardInfo>
                 <CategoryVisual>
                   <Visual src={VizMuebles} alt="Muebles" />

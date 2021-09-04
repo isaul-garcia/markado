@@ -20,20 +20,21 @@ const InfoSection = ({primary, lightBg, imgStart, topLine, lightTopLine, lightTe
                                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                                <Link to='/sign-up'>
+                                <Link to='/'>
                                     <LinkArrowButton shortDesc={shortDesc} big fontBig primary={primary}>
                                         {buttonLabel}<BsArrowRight style={{marginBottom: -10, marginLeft: 15}}/>
                                     </LinkArrowButton>
                                 </Link>
                             </TextWrapper>
                         </InfoColumn>
+
                         <InfoColumn>
                         <IconContext.Provider value={{ color: '#fff', size: 20 }}>
                             <FeaturedCard to={featuredLink} start={start} promoted={promoted}>
-                                    <FeaturedVisual>
-                                        <Visual promoted={promoted} src={featuredImg} alt={featuredTitle} />
-                                    </FeaturedVisual>
-                                    <FeaturedCardInfo>
+                                <FeaturedVisual>
+                                    <Visual promoted={promoted} src={featuredImg} alt={featuredTitle} />
+                                </FeaturedVisual>
+                                <FeaturedCardInfo>
                                     <PromotedIcon promoted={promoted}>
                                         <TiStar />
                                     </PromotedIcon>

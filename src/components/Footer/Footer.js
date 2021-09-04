@@ -1,23 +1,22 @@
 import React from 'react';
 import {FaFacebook, FaInstagram, FaTwitter} from 'react-icons/fa';
-import {Button} from '../../globalStyles';
-import {FooterContainer, FooterSubscription, FooterSubHeading, FooterSubText, Form, FormInput, FooterLinksContainer, FooterLinksWrapper, FooterLinksItems, FooterLink, FooterLinkTitle, SocialMedia, SocialMediaWrap, WebsiteRights, SocialIcons, SocialIconLink} from './Footer.elements';
+import {FooterContainer, 
+        FooterLinksContainer, 
+        FooterLinksWrapper, 
+        FooterLinksItems, 
+        FooterLink, 
+        FooterLinkTitle, 
+        SocialMedia, 
+        SocialMediaWrap, 
+        WebsiteRights, 
+        SocialIcons, 
+        SocialIconLink} from './Footer.elements';
 import MarkadoLogoComplete from '../../assets/markado-icon-markado.svg';
 import MarkadoLogoM from '../../assets/markado-icon-m.svg';
 
 const Footer = () => {
     return (
         <FooterContainer>
-            <FooterSubscription>
-                <FooterSubHeading>
-                    Registrate ahora para subir tu primer anuncio.
-                </FooterSubHeading>
-                <FooterSubText>Subir anuncios es libre de costo. No importa la cantidad!</FooterSubText>
-                <Form>
-                    <FormInput name="email" type="email" placeholder="Your email" />
-                    <Button primary fontBig>Registrate</Button>
-                </Form>
-            </FooterSubscription>
             <FooterLinksContainer>
                 <FooterLinksWrapper>
                     <FooterLinksItems>

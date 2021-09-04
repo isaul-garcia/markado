@@ -6,10 +6,12 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
+    
 }
 
 body {
     background: #f0f0f0;
+    overflow-x: hidden;
 }
 `;
 
@@ -35,10 +37,10 @@ padding-left: 50px;
 
 export const Button = styled.button`
 border-radius: 18px;
-background: ${({primary}) => (primary ? '#25d789' : '#d1ebe1')};
+background: ${({primary}) => (primary ? '#25d789' : '#41db97')};
 white-space: nowrap;
 padding: ${({big}) => (big ? '12px 64px' : '10px 20px')};
-color: #000;
+color: #fff;
 font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
 outline: none;
 border: none;
@@ -47,10 +49,10 @@ cursor: pointer;
 &:hover {
     transition: all 0.3s ease-ease-in-out;
     background: #000;
-    background: ${({primary}) => (primary ? '#d1ebe1' : '#25d789')};
+    background: ${({primary}) => (primary ? '#41db97' : '#25d789')};
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 991px) {
     width:100%;
 }
 `;
@@ -75,7 +77,7 @@ margin-bottom: ${({shortDesc}) => (shortDesc ? '60px' : '0px')};
 @media screen and (max-width: 960px) {
     width:100%;
     text-align: left;
-    
+    font-size: 18px;
 }
 `;
 

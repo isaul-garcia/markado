@@ -60,14 +60,14 @@ const Navbar = () => {
                     <NavMenu onClick={handleClick} click={click}>
                         <NavItemBtn>
                             {button ? (
-                            <NavBtnLink to="/sign-up">
+                            <NavBtnLink to="/">
                                 <SpecialNavButton scrolledDown={scrolledDown} primary>
                                     Subir Anuncio
                                     <Marka src={MarkaSolaBlanca} alt="Marka" />
                                 </SpecialNavButton>
                             </NavBtnLink>
                             ) : (
-                            <NavBtnLink to="/sign-up">
+                            <NavBtnLink to="/">
                                 <SpecialNavButton scrolledDown={scrolledDown} fontBig primary>
                                     Subir Anuncio
                                     <Marka src={MarkaSolaBlanca} alt="Marka" />

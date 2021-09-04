@@ -8,6 +8,10 @@ export const InfoSec = styled.div`
 color: #fff;
 padding: 160px 0;
 background: ${({lightBg}) => (lightBg ? '#f0f0f0' : '#859490')};
+
+@media screen and (max-width: 991px) {
+    padding: 80px 0px;
+  }
 `;
 
 export const InfoRow = styled.div`
@@ -27,7 +31,7 @@ flex: 1;
 max-width:50%;
 flex-basis:50%;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
     max-width:100%;
     flex-basis: 100%;
     display: flex;
@@ -40,17 +44,21 @@ max-width: 540px;
 padding-top: 0;
 padding-bottom: 0px;
 
-@media screen and (max-width: 768px) {
-    padding-bottom: 65px;
+@media screen and (max-width: 991px) {
+    padding-bottom: 0px;
 }
 `;
 
 export const TopLine = styled.div`
-color: ${({lightTopLine}) => (lightTopLine ? '#25d789' : '#444444')};
+color: ${({lightTopLine}) => (lightTopLine ? '#25d789' : '#cccf14')};
 font-size: 18px;
 line-height: 16px;
 letter-spacing: 1.4px;
 margin-bottom: 16px;
+
+@media screen and (max-width: 991px) {
+    font-size: 16px;
+}
 `;
 
 export const Heading = styled.h1`
@@ -58,6 +66,10 @@ margin-bottom: 24px;
 font-size: 48px;
 line-height: 1.1;
 color: ${({lightText}) => (lightText ? '#f0f0f0' : '#444444')};
+
+@media screen and (max-width: 991px) {
+    font-size: 32px;
+}
 `;
 
 export const Subtitle = styled.p`
@@ -66,6 +78,11 @@ margin-bottom: 35px;
 font-size: 18px;
 line-height: 24px;
 color: ${({lightTextDesc}) => (lightTextDesc ? '#f0f0f0' : '#444444')};
+
+@media screen and (max-width: 991px) {
+    font-size: 16px;
+    line-height: 20px;
+}
 `;
 
 //Featured Image Column
@@ -126,15 +143,15 @@ export const FeaturedDescription = styled.p`
 `;
 
 export const FeaturedVisual = styled.div`
-max-width: 100%;
-max-height: 316px;
+width: 100%;
+height: 316px;
 object-fit: cover;
 display: flex;
 padding: 4px;
 z-index: 1;
 
-@media screen and (max-width: 1280px) {
-  max-height: 316px;
+@media screen and (max-width: 991px) {
+  height: 316px;
 }
 `;
 

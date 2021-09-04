@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav`
-background: ${({scrolledDown}) => (scrolledDown ? '#fff' : '#25d789')};
+background: ${({scrolledDown}) => (scrolledDown ? '#fff' : 'rgba(168, 161, 255,0)')};
 height: 80px;
 display: flex;
 justify-content: center;
@@ -174,6 +174,10 @@ outline: none;
 border: none;
 border-radius: 18px 0 0 18px;
 transition: all 0.2s ease-in-out;
+
+@media screen and (max-width: 1500px) { 
+  height: 43px;
+}
 
 @media screen and (max-width: 960px) {
     display: none;
