@@ -25,21 +25,21 @@ const Footer = () => {
                     </FooterLinksItems>
                     <FooterLinksItems>
                         <FooterLinkTitle>¿Quiénes somos?</FooterLinkTitle>
-                        <FooterLink to="/Markado">Sobre Nosotros</FooterLink>
-                        <FooterLink to="/Markado">Prensa</FooterLink>
-                        <FooterLink to="/Markado">Equipo</FooterLink>
+                        <FooterLink to="/markado">Sobre Nosotros</FooterLink>
+                        <FooterLink to="/markado">Prensa</FooterLink>
+                        <FooterLink to="/markado">Equipo</FooterLink>
                     </FooterLinksItems>
                     <FooterLinksItems>
                         <FooterLinkTitle>Soporte</FooterLinkTitle>
-                        <FooterLink to="/Markado">Preguntas Frecuentes</FooterLink>
-                        <FooterLink to="/Markado">Reglas de Publicacion</FooterLink>
-                        <FooterLink to="/Markado">Consejos de Seguridad</FooterLink>
+                        <FooterLink to="/markado">Preguntas Frecuentes</FooterLink>
+                        <FooterLink to="/markado">Reglas de Publicacion</FooterLink>
+                        <FooterLink to="/markado">Consejos de Seguridad</FooterLink>
                     </FooterLinksItems>
                     <FooterLinksItems>
                         <FooterLinkTitle>Legal</FooterLinkTitle>
-                        <FooterLink to="/Markado">Condiciones de Uso</FooterLink>
-                        <FooterLink to="/Markado">Politica de Privacidad</FooterLink>
-                        <FooterLink to="/Markado">Cookies</FooterLink>
+                        <FooterLink to="/markado">Condiciones de Uso</FooterLink>
+                        <FooterLink to="/markado">Politica de Privacidad</FooterLink>
+                        <FooterLink to="/markado">Cookies</FooterLink>
                     </FooterLinksItems>
                 </FooterLinksWrapper>
             </FooterLinksContainer>
