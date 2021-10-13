@@ -25,21 +25,21 @@ const Footer = () => {
                     </FooterLinksItems>
                     <FooterLinksItems>
                         <FooterLinkTitle>¿Quiénes somos?</FooterLinkTitle>
-                        <FooterLink to='/sign-up'>Sobre Nosotros</FooterLink>
-                        <FooterLink to='/'>Prensa</FooterLink>
-                        <FooterLink to='/'>Equipo</FooterLink>
+                        <FooterLink to="/Markado">Sobre Nosotros</FooterLink>
+                        <FooterLink to="/Markado">Prensa</FooterLink>
+                        <FooterLink to="/Markado">Equipo</FooterLink>
                     </FooterLinksItems>
                     <FooterLinksItems>
                         <FooterLinkTitle>Soporte</FooterLinkTitle>
-                        <FooterLink to='/sign-up'>Preguntas Frecuentes</FooterLink>
-                        <FooterLink to='/'>Reglas de Publicacion</FooterLink>
-                        <FooterLink to='/'>Consejos de Seguridad</FooterLink>
+                        <FooterLink to="/Markado">Preguntas Frecuentes</FooterLink>
+                        <FooterLink to="/Markado">Reglas de Publicacion</FooterLink>
+                        <FooterLink to="/Markado">Consejos de Seguridad</FooterLink>
                     </FooterLinksItems>
                     <FooterLinksItems>
                         <FooterLinkTitle>Legal</FooterLinkTitle>
-                        <FooterLink to='/sign-up'>Condiciones de Uso</FooterLink>
-                        <FooterLink to='/'>Politica de Privacidad</FooterLink>
-                        <FooterLink to='/'>Cookies</FooterLink>
+                        <FooterLink to="/Markado">Condiciones de Uso</FooterLink>
+                        <FooterLink to="/Markado">Politica de Privacidad</FooterLink>
+                        <FooterLink to="/Markado">Cookies</FooterLink>
                     </FooterLinksItems>
                 </FooterLinksWrapper>
             </FooterLinksContainer>
@@ -47,13 +47,13 @@ const Footer = () => {
                 <SocialMediaWrap>
                     <WebsiteRights>©2021 Markado S.e.</WebsiteRights>
                     <SocialIcons>
-                        <SocialIconLink href='/' target="_blank" aria-label="Instagram">
+                        <SocialIconLink href="" target="_blank" aria-label="Instagram">
                             <FaInstagram />
                         </SocialIconLink>
-                        <SocialIconLink href='/' target="_blank" aria-label="Facebook">
+                        <SocialIconLink href="" target="_blank" aria-label="Facebook">
                             <FaFacebook />
                         </SocialIconLink>
-                        <SocialIconLink href='/' target="_blank" aria-label="Twitter">
+                        <SocialIconLink href="" target="_blank" aria-label="Twitter">
                             <FaTwitter />
                         </SocialIconLink>
                     </SocialIcons>

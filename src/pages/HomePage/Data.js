@@ -12,7 +12,7 @@ export const homeObjOne = {
     featuredImg: require('../../assets/nintendo-switch.jpg').default,
     featuredTitle: 'Nintendo Switch',
     featuredDescription: 'Como nuevo, incluye caja y accesorios.',
-    featuredLink: '/',
+    featuredLink: "/Markado",
     start: '',
     topspacing: true,
     promoted: true,
@@ -33,7 +33,7 @@ export const homeObjTwo = {
     featuredImg: require('../../assets/afiche-printing.png').default,
     featuredTitle: '',
     featuredDescription: '',
-    featuredLink: '/',
+    featuredLink: "/Markado",
     topspacing: false,
     promoted: false,
 };
@@ -52,7 +52,7 @@ export const homeObjThree = {
     featuredImg: require('../../assets/pr-grid-y.svg').default,
     featuredTitle: '',
     featuredDescription: '',
-    featuredLink: '/',
+    featuredLink: "/Markado",
     topspacing: false,
     promoted: false,
 };

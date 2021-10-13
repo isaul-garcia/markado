@@ -20,7 +20,7 @@ const InfoSection = ({primary, lightBg, imgStart, topLine, lightTopLine, lightTe
                                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                                <Link to='/'>
+                                <Link to={featuredLink}>
                                     <LinkArrowButton shortDesc={shortDesc} big fontBig primary={primary}>
                                         {buttonLabel}<BsArrowRight style={{marginBottom: -10, marginLeft: 15}}/>
                                     </LinkArrowButton>

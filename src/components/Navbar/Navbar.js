@@ -45,7 +45,7 @@ const Navbar = () => {
         <IconContext.Provider value={{ size: 22 }}>
             <Nav scrolledDown={scrolledDown}>
                 <NavbarContainer>
-                    <NavLogo to="/">
+                    <NavLogo to="/Markado">
                         <img src={scrolledDown ? MarkadoLogoComplete : MarkadoLogoCompleteWhite} alt="logo" />
                     </NavLogo>
                     <MobileIcon onClick={handleClick} scrolledDown={scrolledDown}>
@@ -60,14 +60,14 @@ const Navbar = () => {
                     <NavMenu onClick={handleClick} click={click}>
                         <NavItemBtn>
                             {button ? (
-                            <NavBtnLink to="/">
+                            <NavBtnLink to="/Markado">
                                 <SpecialNavButton scrolledDown={scrolledDown} primary>
                                     Subir Anuncio
                                     <Marka src={MarkaSolaBlanca} alt="Marka" />
                                 </SpecialNavButton>
                             </NavBtnLink>
                             ) : (
-                            <NavBtnLink to="/">
+                            <NavBtnLink to="/Markado">
                                 <SpecialNavButton scrolledDown={scrolledDown} fontBig primary>
                                     Subir Anuncio
                                     <Marka src={MarkaSolaBlanca} alt="Marka" />
@@ -77,11 +77,11 @@ const Navbar = () => {
                         </NavItemBtn>
 
                         <NavItem>
-                            <NavLink scrolledDown={scrolledDown} to='/'>Registrate</NavLink>
+                            <NavLink scrolledDown={scrolledDown} to="/Markado">Registrate</NavLink>
                         </NavItem>
                     
                         <NavItem>
-                            <NavLink scrolledDown={scrolledDown} to='/'>Entrar</NavLink>
+                            <NavLink scrolledDown={scrolledDown} to="/Markado">Entrar</NavLink>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>

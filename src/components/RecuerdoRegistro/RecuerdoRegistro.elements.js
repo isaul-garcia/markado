@@ -97,6 +97,7 @@ export const FooterWrapperImage = styled.div`
     position: absolute;
     margin-top: -56px;
     z-index: 0;
+    pointer-events: none;
 
     @media screen and (max-width: 1500px) {
         width: 83%;

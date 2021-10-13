@@ -12,7 +12,7 @@ function App() {
       <ScrollToTop />
       <Navbar />
       <Switch>
-        <Route path="/markado" exact component={Home} />
+        <Route path="/Markado" exact component={Home} />
         <Route path="/Inmobiliaria" exact component={Inmobiliaria} /> 
         <Route path="/Transportacion" exact component={Transportacion} /> 
         <Route path="/Articulos" exact component={Articulos} /> 
